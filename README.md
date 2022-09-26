@@ -1,140 +1,240 @@
-# Welcome to GitHub
-
-Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
-
-## Repositories
-
-Right now, we’re in your first GitHub **repository**. A repository is like a folder or storage space for your project. Your project's repository contains all its files such as code, documentation, images, and more. It also tracks every change that you—or your collaborators—make to each file, so you can always go back to previous versions of your project if you make any mistakes.
-
-This repository contains three important files: The HTML code for your first website on GitHub, the CSS stylesheet that decorates your website with colors and fonts, and the **README** file. It also contains an image folder, with one image file.
-
-## Describe your project
-
-You are currently viewing your project's **README** file. **_README_** files are like cover pages or elevator pitches for your project. They are written in plain text or [Markdown language](https://guides.github.com/features/mastering-markdown/), and usually include a paragraph describing the project, directions on how to use it, who authored it, and more.
-
-[Learn more about READMEs](https://help.github.com/en/articles/about-readmes)
-
-## Your first website
-
-**GitHub Pages** is a free and easy way to create a website using the code that lives in your GitHub repositories. You can use GitHub Pages to build a portfolio of your work, create a personal website, or share a fun project that you coded with the world. GitHub Pages is automatically enabled in this repository, but when you create new repositories in the future, the steps to launch a GitHub Pages website will be slightly different.
-
-[Learn more about GitHub Pages](https://pages.github.com/)
-
-## Rename this repository to publish your site
-
-We've already set-up a GitHub Pages website for you, based on your personal username. This repository is called `hello-world`, but you'll rename it to: `username.github.io`, to match your website's URL address. If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
-
-Let's get started! To update this repository’s name, click the `Settings` tab on this page. This will take you to your repository’s settings page. 
-
-![repo-settings-image](https://user-images.githubusercontent.com/18093541/63130482-99e6ad80-bf88-11e9-99a1-d3cf1660b47e.png)
-
-Under the **Repository Name** heading, type: `username.github.io`, where username is your username on GitHub. Then click **Rename**—and that’s it. When you’re done, click your repository name or browser’s back button to return to this page.
-
-<img width="1039" alt="rename_screenshot" src="https://user-images.githubusercontent.com/18093541/63129466-956cc580-bf85-11e9-92d8-b028dd483fa5.png">
-
-Once you click **Rename**, your website will automatically be published at: https://your-username.github.io/. The HTML file—called `index.html`—is rendered as the home page and you'll be making changes to this file in the next step.
-
-Congratulations! You just launched your first GitHub Pages website. It's now live to share with the entire world
-
-## Making your first edit
-
-When you make any change to any file in your project, you’re making a **commit**. If you fix a typo, update a filename, or edit your code, you can add it to GitHub as a commit. Your commits represent your project’s entire history—and they’re all saved in your project’s repository.
-
-With each commit, you have the opportunity to write a **commit message**, a short, meaningful comment describing the change you’re making to a file. So you always know exactly what changed, no matter when you return to a commit.
-
-## Practice: Customize your first GitHub website by writing HTML code
-
-Want to edit the site you just published? Let’s practice commits by introducing yourself in your `index.html` file. Don’t worry about getting it right the first time—you can always build on your introduction later.
-
-Let’s start with this template:
-
-```
-<p>Hello World! I’m [username]. This is my website!</p>
-```
-
-To add your introduction, copy our template and click the edit pencil icon at the top right hand corner of the `index.html` file.
-
-<img width="997" alt="edit-this-file" src="https://user-images.githubusercontent.com/18093541/63131820-0794d880-bf8d-11e9-8b3d-c096355e9389.png">
-
-
-Delete this placeholder line:
-
-```
-<p>Welcome to your first GitHub Pages website!</p>
-```
-
-Then, paste the template to line 15 and fill in the blanks.
-
-<img width="1032" alt="edit-githuboctocat-index" src="https://user-images.githubusercontent.com/18093541/63132339-c3a2d300-bf8e-11e9-8222-59c2702f6c42.png">
-
-
-When you’re done, scroll down to the `Commit changes` section near the bottom of the edit page. Add a short message explaining your change, like "Add my introduction", then click `Commit changes`.
-
-
-<img width="1030" alt="add-my-username" src="https://user-images.githubusercontent.com/18093541/63131801-efbd5480-bf8c-11e9-9806-89273f027d16.png">
-
-Once you click `Commit changes`, your changes will automatically be published on your GitHub Pages website. Refresh the page to see your new changes live in action.
-
-:tada: You just made your first commit! :tada:
-
-## Work with GitHub on your computer using GitHub Desktop
-
-**GitHub Desktop** is a free app from GitHub for Windows and Mac that allows you to easily work with your GitHub repositories from your computer. You just saw how you can commit to a repository from GitHub.com, but most developers do the majority of their work from their computer (locally) before pushing it up to GitHub. So let’s try that out!
-
-[Download GitHub Desktop](https://desktop.github.com/)
-
-## Practice: Use GitHub Desktop and an editor to make a change from your computer
-
-Start by downloading GitHub Desktop if you haven’t already done so, and install it on your computer. Go through the GitHub Desktop onboarding steps, and when you get to the “Let’s get started” screen, go ahead and choose the repository you were just working with on GitHub.com, and click “Clone.”
-
-### Using an editor to make changes
-
-Let’s make sure you have a text editor on your computer - this is what you'll use to actually make changes to your files. If you already know you have an editor, then skip to the next step. Otherwise, download and install either [Visual Studio Code](https://code.visualstudio.com/) or [Atom](https://atom.io/) and restart GitHub Desktop before proceeding to the next step.
-
-Let’s make a change to your GitHub Pages site, just like you did on GitHub.com, except this time we’re going to do it all from your computer. From GitHub Desktop, click the “Open in…” button in the middle of the screen to “open the repository in your external editor” that you just downloaded. 
-
-![Open-in-editor](https://user-images.githubusercontent.com/721500/63188833-82fb9600-c030-11e9-8777-a67c1713d59f.png)
-
-In the left sidebar, click the `index.html` file to open it, and go ahead and add another line. Maybe, “Building websites is fun! You should try it too!” or whatever you want to add. 
-
-![Make-changes](https://user-images.githubusercontent.com/721500/63188832-82fb9600-c030-11e9-9f7b-7d15385a16f0.png)
-
-Now switch back to GitHub Desktop, and you should see the change you made.
-
-![View-changes](https://user-images.githubusercontent.com/721500/63188835-82fb9600-c030-11e9-8980-43a8231ca23a.png)
-
-### Commit your changes
-
-Now you can commit your changes by typing a message in the `Summary` box at the bottom left, and then click the blue `Commit` button below that.
-
-![Commit-changes](https://user-images.githubusercontent.com/721500/63188831-8262ff80-c030-11e9-809a-f87d8b544935.png)
-
-### Push your changes to GitHub.com
-
-One of the great things about working on things on your computer is that you get to control when other people see them. Now let’s push your commit to GitHub.com as well so it’s saved there and you can publish it to your site. Click the “Push origin” button to push your commit to GitHub.com. 
-
-![Push-to-GitHub](https://user-images.githubusercontent.com/721500/63188834-82fb9600-c030-11e9-9d8e-6c6ed6d48504.png)
-
-Now click the “View on GitHub” button to get back to your repository’s page on GitHub.com.
-
-![View-on-GitHub](https://user-images.githubusercontent.com/721500/63188836-82fb9600-c030-11e9-9bc5-cf304398500d.png)
-
-### Deploy and see your changes live on your GitHub Pages website!
-
-Once you commit your changes, they are automatically published on your GitHub Pages website. Refresh your browser to see it live!
-
-### Celebrate!
-
-Hooray! Now you have your repository linked between your computer and GitHub.com. In the future, you can use GitHub Desktop to push any changes you decide to make from your computer.
-
-## Extra Credit: Keep on building!
-
-Change the placeholder Octocat gif on your GitHub Pages website by [creating your own personal Octocat emoji](https://myoctocat.com/build-your-octocat/) or [choose a different Octocat gif from our logo library here](https://octodex.github.com/). Add that image to line 12 of your `index.html` file, in place of the `<img src=` link.
-
-Want to add even more code and fun styles to your GitHub Pages website? [Follow these instructions](https://github.com/github/personal-website) to build a fully-fledged static website.
-
-![octocat](./images/create-octocat.png)
-
-## Everything you need to know about GitHub
-
-Getting started is the hardest part. If there’s anything you’d like to know as you get started with GitHub, try searching [GitHub Help](https://help.github.com). Our documentation has tutorials on everything from changing your repository settings to configuring GitHub from your command line.
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<font face='Times New Roman' size = 2.5>\n",
+    "    \n",
+    "## Project 1 (phase 1)\n",
+    "\n",
+    "### Problem: An electron chasing a proton\n",
+    "\n",
+    "Let’s suppose the simplest situation. The proton moves with constant speed $\\vec v$ and it is starting from the origin. Here we use $\\vec P(t)$ as the position of proton, $\\vec E(t)$ for electron.\n",
+    "\n",
+    "Based on coordinate, we can write it as\n",
+    "\n",
+    "$$\\vec P(t) =  \\left( \\begin{matrix} x_p(t) \\\\y_p(t)\\\\z_p(t)   \\end{matrix} \\right) = \\left( \\begin{matrix} v_x t \\\\ v_y t\\\\ v_z t   \\end{matrix} \\right), \\vec E(t) =  \\left( \\begin{matrix} x_e(t) \\\\y_e(t)\\\\z_e(t)   \\end{matrix} \\right)$$\n",
+    "\n",
+    "$$ \\vec v =  \\left( \\begin{matrix} v_x \\\\ v_y \\\\ v_z   \\end{matrix} \\right)$$\n",
+    "\n",
+    "$$\\frac{d^2 \\vec E(t)}{d t^2} = \\frac{e^2}{4 \\pi \\epsilon_0 m_e} \\frac{\\vec P(t)-\\vec E(t)}{|\\vec P(t)-\\vec E(t)|^3}$$\n",
+    "\n",
+    "#### Initial constraint\n",
+    "\n",
+    "To guarantee the electron can eventually catch the proton, we need to set constraint to the initial condition. Assume that the initial separation of two particles is:\n",
+    "\n",
+    "$$|\\vec P(0) - \\vec E(0)| = \\sqrt{ x_e^2(0) +  y_e^2(0) +  z_e^2(0)} = d_0$$\n",
+    "\n",
+    "Then the magnitude of proton velocity should be smaller than the escape velocity, which is defined as:\n",
+    "\n",
+    "$$v_{esc} = \\sqrt{\\frac{e^2}{2\\pi \\epsilon_0 m_e d_0}}$$\n",
+    "\n",
+    "If the proton moves with velocity $|\\vec v| \\geq v_{esc}$, their distance will increase untill infinity. This constraint can be easily obtained by energy conservation, and is discussed farther in the test case. Therefore, the initial condition should satisfy:\n",
+    "\n",
+    "$$|\\vec v| < \\sqrt{\\frac{e^2}{2\\pi \\epsilon_0 m_e |\\vec E(0)|}}$$\n",
+    "\n",
+    "\n",
+    "### Test Case \n",
+    "\n",
+    "Consider the one dimensional case: both the two particles moving along $x$ axis. The initial condition is given by: \n",
+    "\n",
+    "\n",
+    "$$\\vec P(0) =  \\left( \\begin{matrix} 0 \\\\0\\\\0   \\end{matrix} \\right), \\vec E(0) =  \\left( \\begin{matrix} -d \\\\ 0 \\\\ 0   \\end{matrix} \\right), \\vec v =  \\left( \\begin{matrix} v  \\\\ 0 \\\\ 0   \\end{matrix} \\right)$$\n",
+    "\n",
+    "where $d>0$ is the initial distance and $v >0$ is the constant velocity of the proton. Therefore, the position of the two particles can be expressed as: \n",
+    "\n",
+    "$$\\vec P(t) =  \\left( \\begin{matrix} v  t  \\\\ 0 \\\\ 0   \\end{matrix} \\right), \\vec E(t) =  \\left( \\begin{matrix} x_e(t) \\\\ 0 \\\\ 0   \\end{matrix} \\right)$$\n",
+    "\n",
+    "The 2nd order ODE to be solved is:\n",
+    "\n",
+    "$$\\frac{d^2 x_e(t)}{d t^2} = \\frac{e^2}{4 \\pi \\epsilon_0 m_e} \\frac{1}{[x_e(t) - v t]^2}$$\n",
+    "\n",
+    "Define the separation between two particles as $y(t) = vt - x_e(t)$ ($ y(t)\\geq 0$), we will use $y(t)$ to describe the relative motion of the electron.\n",
+    "\n",
+    "$$ y(0) = -x_e(0) = d ，   \\frac{dy}{dt} = v -\\frac{dx_e}{dt}，  \\frac{d^2 y}{dt^2} = - \\frac{d^2 x}{dt^2}$$\n",
+    "\n",
+    "To simplify, also replace the parameter by:\n",
+    "\n",
+    "$$A = \\frac{e^2}{4 \\pi \\epsilon_0 m_e}$$\n",
+    "\n",
+    "Then eq() is reduced to: \n",
+    "\n",
+    "$$\\frac{d^2 y}{dt^2} = -\\frac{A }{y^2}$$\n",
+    "\n",
+    "For this 2nd order ODE, we can replace the derivative of $y$ by $u(t)$:  \n",
+    "\n",
+    "$$u(t) = \\frac{dy}{dt}， u(0) = v， \\frac{d^2 y}{dt^2} =  \\frac{du}{dt} = \\frac{du}{dy}\\frac{dy}{dt} = \\frac{du}{dy} u$$\n",
+    "\n",
+    "Substitute in eq(): \n",
+    "\n",
+    "$$\\begin {align*}   \\frac{du}{dy} u & = -\\frac{A }{y^2}  \\\\\n",
+    "\\int_{u(0)}^{u(t)} udu& = -\\int_{y(0)}^{y(t)} \\frac{A }{y^2} dy  \\\\\n",
+    "\\Rightarrow u(t) =  \\frac{dy}{dt}& = \\pm \\sqrt{\\frac{2A }{y(t)} - \\frac{2A }{y(0)} + u^2(0)} \\\\\n",
+    "& = \\pm \\sqrt{\\frac{2A }{y(t)} - \\frac{2A }{d} + v^2} \n",
+    "\\end {align*} $$\n",
+    "\n",
+    "<span style=\"color:red\">Let $1/b = 1/d - \\frac{v^2}{2A}$</span>, we have:\n",
+    "\n",
+    "$$\\frac{dy}{dt} = \\pm \\sqrt{2A(\\frac{1}{y} - \\frac{1}{b} )}$$\n",
+    "\n",
+    "\n",
+    "Here the sign depends on the time. Since as time goes by, the separation $y$ will first increase and then decrease to zero, if electron can win our \"tag game\". \n",
+    "When $y$ reaches the maximum, we have:\n",
+    "\n",
+    "$$\\frac{dy}{dt} = 0 \\Rightarrow y_{max} = b$$\n",
+    "\n",
+    "<span style=\"color:red\">Here the parameter $b= (1/d - \\frac{v^2}{2A})^{-1}=(\\frac{1}{d}-\\frac{2\\pi \\epsilon_0 m_e }{e^2}v^2)^{-1} $</span> gives rise to 3 different regimes for the relative velocity $\\frac{dy}{dt}$, depending on the value of initial conditions, i.e $x(0)=-d$ and $\\frac{dy}{dt}|_{t=0}=v$. Define escape velocity $v_{esc}$ as:\n",
+    "\n",
+    " $$v_{esc} =  \\sqrt{\\frac{e^2}{2\\pi \\epsilon_0 m_e d}}$$\n",
+    "\n",
+    "The three different conditions are given by:\n",
+    "    \n",
+    "1.  $v < v_{esc}$ implies that $b>0$ is finite and  $y_{max}=b$, which means the electron can eventually catch the proton.\n",
+    "\n",
+    "2.  $v = v_{esc} $ implies that $b$ goes to infinity and $\\frac{dy}{dt} \\geq 0$ for all the time $t$, hence the distance between the proton and the electron is not bounded ($y_{max} \\rightarrow \\infty$). Also $\\frac{dy}{dt} \\rightarrow 0$ as $t \\rightarrow \\infty$, which means the electron will finally has the same velocity with the proton when their separation reaches infinity and they will never collapse.\n",
+    "\n",
+    "3.  $v > v_{esc} $  implies that $b<0$ is finite,  $\\frac{dy}{dt} \\geq 0$ for all $t$ , $\\frac{dy}{dt}|_{t=\\infty}=\\sqrt{\\frac{2A}{b}}$ and  $y_{max} \\rightarrow \\infty$. In this condition, the velocity of electron will always be slower than the proton and it will never win the \"tag game\".\n",
+    "\n",
+    "From above discussion, if we want the electron win the \"tag game\", we should constrain the initial condition by $v<v_{esc}$. \n",
+    "\n",
+    "#### Paths\n",
+    "\n",
+    "Under the above initial condition, assume that $y(t_{max}) = b$ and $y(t_{tag}) = 0$: \n",
+    "\n",
+    "$$\\frac{dy}{dt} =   \\sqrt{2A(\\frac{1}{y} - \\frac{1}{b} )} \\text{ }\\text{ when } t < t_{max}$$\n",
+    " \n",
+    "$$\\frac{dy}{dt} =  - \\sqrt{2A(\\frac{1}{y} - \\frac{1}{b} )} \\text{ }\\text{ when } t_{max} < t < t_{tag}$$\n",
+    "\n",
+    "Then we can solve this equation by integrating it. \n",
+    "For $t <  t_{max}$, we have:\n",
+    "\n",
+    "$$\\begin {align*}  t &= \\int_{y(0)}^{y(t)} \\frac{dy}{\\sqrt{2A(\\frac{1}{y} - \\frac{1}{b} )}} \\\\\n",
+    "& = -\\frac{ b^{3/2} }{\\sqrt{2A}} \\tan^{-1} [\\sqrt{\\frac{b}{y} - 1}]  -  \\sqrt{\\frac{ b^2y - by^2} { 2A}  } + \\frac{ b^{3/2} }{\\sqrt{2A}} \\tan^{-1} [\\sqrt{\\frac{b}{d} - 1}]  +  \\sqrt{\\frac{ b d (b-  d ) } { 2A}  } \n",
+    "\\end {align*} $$\n",
+    "\n",
+    "The time  $ t_{max}$ is given by :\n",
+    "\n",
+    "$$\\begin {align*}  t_{max} &= \\int_{y(0)}^{b} \\frac{dy}{\\sqrt{2A(\\frac{1}{y} - \\frac{1}{b} )}} \\\\\n",
+    "& =  \\frac{ b^{3/2} }{\\sqrt{2A}} \\tan^{-1} [\\sqrt{\\frac{b}{d} - 1}]  +  \\sqrt{\\frac{ b d (b-  d ) } { 2A}  } \n",
+    "\\end {align*} $$\n",
+    "\n",
+    "For $t_{max} < t < t_{tag}$, we have: \n",
+    "\n",
+    "$$\\begin {align*}  t &= \\int_{y(0)}^{b} \\frac{dy}{\\sqrt{2A(\\frac{1}{y} - \\frac{1}{b} )}} -\\int_{b}^{y(t)} \\frac{dy}{\\sqrt{2A(\\frac{1}{y} - \\frac{1}{b} )}} \\\\\n",
+    "& =  \\frac{ b^{3/2} }{\\sqrt{2A}} \\tan^{-1} [\\sqrt{\\frac{b}{y} - 1}]  +  \\sqrt{\\frac{ b^2y - by^2} { 2A}  }  + \\frac{ b^{3/2} }{\\sqrt{2A}} \\tan^{-1} [\\sqrt{\\frac{b}{d} - 1}]  +  \\sqrt{\\frac{ b d (b-  d ) } { 2A}  }\n",
+    "\\end {align*} $$\n",
+    "\n",
+    "These equations look messy and it's hard to write them as $y(t)$. So we decide to simply combine them in the below form.\n",
+    "\n",
+    "\n",
+    "$$\\begin {align*}  t& = -\\frac{ b^{3/2} }{\\sqrt{2A}} \\tan^{-1} [\\sqrt{\\frac{b}{y} - 1}]  -  \\sqrt{\\frac{ b^2y - by^2} { 2A}  } + \\frac{ b^{3/2} }{\\sqrt{2A}} \\tan^{-1} [\\sqrt{\\frac{b}{d} - 1}]  +  \\sqrt{\\frac{ b d (b-  d ) } { 2A}  }  \\text{ } \\text{ when }t\\leq  t_{max} \\\\\n",
+    "t & =  \\frac{ b^{3/2} }{\\sqrt{2A}} \\tan^{-1} [\\sqrt{\\frac{b}{y} - 1}]  +  \\sqrt{\\frac{ b^2y - by^2} { 2A}  }  + \\frac{ b^{3/2} }{\\sqrt{2A}} \\tan^{-1} [\\sqrt{\\frac{b}{d} - 1}]  +  \\sqrt{\\frac{ b d (b-  d ) } { 2A}  }\\text{ } \\text{ when }t_{max} < t < t_{tag}\n",
+    "\\end {align*} $$\n",
+    "\n",
+    "After we obtain the numerical results, we can verify them by plugging the corresponding $y$ and $t$ into the above equation. If eq() is satisfied, the numerical results are correct.\n",
+    "\n",
+    "#### Tag time\n",
+    "\n",
+    "As for the tag time, we can obtain it by substituting $y = 0$ into the second equation： \n",
+    " \n",
+    "$$\\begin {align*}  t_{tag} &=\\frac{\\pi}{2} \\frac{ b^{3/2} }{\\sqrt{2A}}   - \\frac{ b^{3/2} }{\\sqrt{2A}} \\tan^{-1} [\\sqrt{\\frac{b}{d} - 1}]  + \\frac{ b^{3/2} }{\\sqrt{2A}} \\tan^{-1} [\\sqrt{\\frac{b}{d} - 1}]  +  \\sqrt{\\frac{ b d (b-  d ) } { 2A}  } \\\\\n",
+    "& = \\frac{\\pi}{2} \\frac{ b^{3/2} }{\\sqrt{2A}}    +  \\sqrt{\\frac{ b d (b-  d ) } { 2A}  }\n",
+    "\\end {align*} $$\n",
+    "\n",
+    "We will compare the tag time of analytical result and numerical result, and we want the tag time accurate at least $1$ part in $10^{5}$.\n",
+    "\n",
+    "#### Quick Test : \n",
+    "\n",
+    "Consider an even simpler condition of the 1-D case: let the proton stay at rest, $v = 0$. We can use the tag time of this reduced case as a quick test for our numerical results.\n",
+    "<span style=\"color:red\">Then the parameter:  $ b =  d$</span>. The result will be reduced to:\n",
+    "\n",
+    "<span style=\"color:red\">$$\\begin {align*}  t_{tag} \n",
+    "& = \\frac{\\pi}{2} \\frac{ b^{3/2} }{\\sqrt{2A}}    +  \\sqrt{\\frac{ b d (b-  d ) } { 2A}  } \\\\\n",
+    "&  =\\frac{\\pi}{2} \\frac{ d^{3/2} }{ \\sqrt{2A} }\n",
+    "\\end {align*} $$</span>\n",
+    "\n",
+    "### More complicated (realistic) situation\n",
+    "\n",
+    "In real situation, the uniform motion of proton will also produce a magnetic field, which might influence the motion of the electron: \n",
+    "\n",
+    "$$\\vec B = \\frac{\\mu_0 e}{4\\pi} \\frac{\\vec v_p \\times [\\vec E(t) - \\vec P(t) ]}{|\\vec E(t) - \\vec P(t)|^3}$$\n",
+    "\n",
+    "$$\\vec F_p = e \\vec v_e \\times \\vec B =\\frac{\\mu_0 e^2}{4\\pi}    \\frac{\\vec v_e\\times[\\vec v_p \\times [\\vec E(t) - \\vec P(t) ]]}{|\\vec E(t) - \\vec P(t)|^3}$$\n",
+    "\n",
+    "Therefore the equation of motion for the electron will become:\n",
+    "\n",
+    "$$\\frac{d^2 \\vec E(t)}{d t^2} = \\frac{e^2}{4 \\pi \\epsilon_0 m_e} \\frac{\\vec P(t)-\\vec E(t)}{|\\vec P(t)-\\vec E(t)|^3} + \\frac{\\mu_0 e^2}{4\\pi m_e} \\frac{d \\vec E(t)}{d t }  \\times \\frac{[\\vec v_p \\times [\\vec E(t) - \\vec P(t) ]]}{|\\vec E(t) - \\vec P(t)|^3}$$\n",
+    "\n",
+    "In most situation, we choose to neglect the second term. Therefore, we need to compare the magnitude of two components.\n",
+    "\n",
+    "$$\\frac{\\mu_0 e^2}{4\\pi m_e} \\frac{d \\vec E(t)}{d t }  \\times \\frac{[\\vec v_p \\times [\\vec E(t) - \\vec P(t) ]]}{|\\vec E(t) - \\vec P(t)|^3} \\leq \\frac{\\mu_0 e^2}{4\\pi m_e} |\\frac{d \\vec E(t)}{d t } | \\frac{ |\\vec v_p |  [\\vec E(t) - \\vec P(t) ] }{|\\vec E(t) - \\vec P(t)|^3}$$\n",
+    "\n",
+    "Let $v_e= |d\\vec E/ dt| $ and $ v_p = |\\vec v_p| $. When the magnitude of Coulomb force term is much larger than the induced magnetic force term, we have: \n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "$$\\begin {align*}   \\frac{e^2}{4 \\pi \\epsilon_0 m_e} \\frac{|\\vec P(t)-\\vec E(t)|}{|\\vec P(t)-\\vec E(t)|^3} &\\gg \\frac{\\mu_0 e^2}{4\\pi m_e}   \\frac{ v_e  v_p   |\\vec E(t) - \\vec P(t) | }{|\\vec E(t) - \\vec P(t)|^3}\\\\\n",
+    "\\frac{1}{  \\epsilon_0 }   &\\gg \\mu_0  v_e  v_p  \\\\\n",
+    "  v_e  v_p    &\\ll \\mu_0  \\epsilon_0  = c^2\n",
+    "\\end {align*} $$\n",
+    "\n",
+    "where $c$ is the light speed. The above relation shows that when $v_ev_p \\ll c^2 $, we can neglect the induced magnetic field.\n",
+    "\n",
+    "\n",
+    "\n",
+    "### Add external field (optional)\n",
+    "\n",
+    "If we add an external magnetic field $\\vec B$ on the electron and still keep the proton moving uniformly, the ODE to be solved becomes: \n",
+    "\n",
+    "$$\\frac{d^2 \\vec E(t)}{d t^2} = \\frac{e^2}{4 \\pi \\epsilon_0 m_e} \\frac{\\vec P(t)-\\vec E(t)}{|\\vec P(t)-\\vec E(t)|^3} + e \\frac{d \\vec E(t)}{dt} \\times \\vec B$$\n",
+    "\n",
+    "where the magnetic field is given by:\n",
+    "\n",
+    "$$\\vec B =  \\left( \\begin{matrix} B_x \\\\ B_y \\\\ B_z   \\end{matrix} \\right)$$\n",
+    "\n",
+    "In this case, the direction of electron velocity will not point at the proton all the time and their track will be much more complex. Therefore, so far we are not sure if this case is solvable or not.\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "### Conlusion for future work: (can you think of a better title for this part? I want to conclude for some guidance of future work)\n",
+    "\n",
+    "From the above discussion, we need to set two constraints for our project:\n",
+    "\n",
+    "$$|\\vec v| < \\sqrt{\\frac{e^2}{2\\pi \\epsilon_0 m_e |\\vec E(0)|}}， |\\vec v||\\frac{d \\vec E(t)}{dt}| \\ll c^2$$\n",
+    "\n",
+    "We are interested in the path of electron, so we will first try to solve the ODE in eq() directly to obtain $\\vec E(t)$. If that's too complicated, we can reduce it to the equation for the separation of two particles and solve for $|\\vec P(t) - \\vec E(t)|$. At the beginning of generating code, we can use the quick test to adjust it. After completing the code for 3-D case, we will apply it to the test case and verify it by comparing the separation behavior and the tag time. If we can solve the original problem with good accuracy, we will try to solve the case with external field."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
